@@ -151,7 +151,7 @@ $ sort -k2,2nr chr1_maize_data-with-qm.txt > chr1_maize_sorted-data-with-qm.txt
  ```
 $ for i in {1,2,3,4,5,6,7,8,9,10}; do sort -2k,2n chr[$i]_maize_data-with-dashes.txt > chr[$i]_maize_sorted-data-with-dashes.txt; done
 ```
----> sorts all ten files, although the file name does not end up to be as I wnated it....
+---> sorts all ten files, although the file name does not end up to be as I wanted it....
 ```
 $ for i in {1,2,3,4,5,6,7,8,9,10}; do sort -2k,2nr chr[$i]_maize_data-with-qm.txt > chr[$i]_maize_sorted-data-with-qm.txt; done
 ```
